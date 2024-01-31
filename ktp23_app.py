@@ -93,7 +93,7 @@ if st.button("Submit"):
     predicted_pgv = max(0, prediction[0])
 
     st.subheader("Result")
-    st.write(f"PGV = {predicted_pgv:,.5f} cm/s")
+    st.write(f"CAV = {predicted_pgv:,.5f} cm/s")
 
 paper = """
 <strong>Publication:</strong> Kuran, F., Tanırcan, G., Pashaei, E. (2023) “Performance evaluation of machine learning techniques in predicting cumulative absolute velocity”, Soil Dynamics and Earthquake Engineering. 174, 108175. https://doi.org/10.1016/j.soildyn.2023.108175.
